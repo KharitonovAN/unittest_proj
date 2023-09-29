@@ -13,7 +13,3 @@ class TestArrs(unittest.TestCase):
         self.assertEqual(arrs.my_slice([1, 2, 3], 1), [2, 3])
         self.assertTrue(arrs.my_slice([]) == [])
         self.assertTrue(arrs.my_slice([1, 2, 3], None, 1) == [1])
-
-
-if __name__ == '__main__':
-    unittest.main()
